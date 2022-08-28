@@ -16,7 +16,9 @@
   /* COLORS */
     --basic: #DADADA; /* General Color */
     --text: #D5EBE7; /* Text Color */
+    --ndText: #ED231C;
     --bgColor: #06010B; /* Background Color */
+    --boxColor: #1F1F1F;
 
   /* IMAGES */
     --headerImg: url(../assets/images/header.png) no-repeat center center; /* Header Image */

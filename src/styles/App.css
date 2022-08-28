@@ -15,7 +15,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 20px;
 }
 
 .container__center {
@@ -125,7 +124,7 @@ code {
 
 /* FOOTER */
 .footer {
-  padding: 100px 20px;
+  padding: 20px;
 }
 .footer_copyright {
   font-family: var(--ndFont);
@@ -175,7 +174,7 @@ code {
 }
 
 /* TOKEN CARD */
-.token__container {
+.token__container { /* CONTAINER */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,7 +182,69 @@ code {
   width: 100%;
   margin: 0;
 }
-.token__image{
+.token__metadata {
+  display: flex;
+}
+.metadata__traits {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+.token__details {
+  flex-grow: 1;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.token__traitsH { /* CONTAINER */
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 10px;
+}
+.traits__counter {
+  background: var(--boxColor);
+  border-radius: 18px;
+  width: 19px;
+  height: 19px;
+  font-size: 14px;
+  color: var(--ndText);
+  text-align: center;
+  font-family: var(--ndFont);
+  font-weight: 400;
+}
+.token__traits {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: var(--ndFont);
+}
+.token__trait {
+  background-color: var(--boxColor);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin: 5px 10px 5px 0;
+  flex-grow: 1;
+  flex-basis: 33.33%;
+}
+.trait__name {
+  color: var(--ndText);
+  font-size: 10px;
+  line-height: 11px;
+}
+.trait__description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 3px 0;
+}
+.trait__rarity {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #7D7D7D;
+}
+.token__image {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -192,7 +253,43 @@ code {
 .token__info {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.token__info__element {
+  flex-grow: 1;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.token_detailElement {
+  font-family: var(--ndFont);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--basic);
+  margin: 3px 0;
+  align-items: center;
+}
+.token__price {
+  font-family: var(--ndFont);
+  font-weight: 500;
+  line-height: 24px;
+}
+.token__eth {
+  font-size: 20px;
+}
+.token__fiat {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7D7D7D;
+}
+.token__icons {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px 0 0 ;
 }
 .token__btn {
   width: 100%;
@@ -205,7 +302,7 @@ code {
   font-weight: 400;
   font-size: 11px;
   padding: 5px 20px;
-  margin-top: 10px;
+  margin: 10px 0;
   background-color: transparent;
   vertical-align: middle;
   /* background: url(../assets/images/wallet.svg) no-repeat right; */
