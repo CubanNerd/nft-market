@@ -1,11 +1,14 @@
 import React from 'react';
 import './styles/App.css';
 import Footer from './components/Footer';
+import SimpleHeader from './components/SimpleHeader';
+import TokenCard from './components/TokenCard';
 
 function Token() {
     return(
         <div>
-            <h1>Token Page</h1>
+            <SimpleHeader/>
+            <TokenCard/>
             <Footer />
         </div>
     );
