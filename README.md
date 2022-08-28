@@ -3,7 +3,7 @@
 All the code in this repository (nft-market) is free to use. Use it in your 1/1 art collections.
 No credits are needed but a shoutout is always welcomed.
 
-All the images located in the ./src/assets/images folder or public folder however are NOT free to use.
+All the images located in the ./src/assets/ folder or public folder however are NOT free to use.
 All the images found on this repository belong to Lilian Figueroa Piedra, Cuban Nerd and 90M Studio.
 
 # Getting Started with Create React App
