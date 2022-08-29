@@ -319,7 +319,7 @@ code {
 @media only screen and (max-device-width: 480px) {
   /* HOME */
   .intro__heading {
-    margin: 0px;
+    margin-bottom: 20px;
     padding: 0% 20px;
   }
   .intro__desc {
@@ -349,6 +349,7 @@ code {
   }
   h1 {
     font-size: var(--mobileh1);
+    line-height: calc(var(--mobileh1) - 4px);
   }
   p {
     font-size: var(--mobilep);
