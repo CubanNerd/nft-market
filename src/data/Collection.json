@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "./images/alpha1.png",
+        "imgName": "α1"
+    },
+    {
+        "id": 2,
+        "imgSrc": "./images/alpha2.png",
+        "imgName": "α2"
+    },
+    {
+        "id": 3,
+        "imgSrc": "./images/alpha3.png",
+        "imgName": "α3"
+    },
+    {
+        "id": 4,
+        "imgSrc": "./images/alpha4.png",
+        "imgName": "α4"
+    },
+    {
+        "id": 5,
+        "imgSrc": "./images/alpha5.png",
+        "imgName": "α5"
+    },
+    {
+        "id": 6,
+        "imgSrc": "./images/alpha6.png",
+        "imgName": "α6"
+    },
+    {
+        "id": 7,
+        "imgSrc": "./images/alpha7.png",
+        "imgName": "α7"
+    },
+    {
+        "id": 8,
+        "imgSrc": "./images/alpha8.png",
+        "imgName": "α8"
+    },
+    {
+        "id": 9,
+        "imgSrc": "./images/alpha9.png",
+        "imgName": "α9"
+    },
+    {
+        "id": 10,
+        "imgSrc": "./images/alpha10.png",
+        "imgName": "α10"
+    },
+    {
+        "id": 11,
+        "imgSrc": "./images/alpha11.png",
+        "imgName": "α11"
+    },
+    {
+        "id": 12,
+        "imgSrc": "./images/alpha12.png",
+        "imgName": "α12"
+    },
+    {
+        "id": 13,
+        "imgSrc": "./images/alpha13.png",
+        "imgName": "α13"
+    },
+    {
+        "id": 14,
+        "imgSrc": "./images/alpha14.png",
+        "imgName": "α14"
+    },
+    {
+        "id": 15,
+        "imgSrc": "./images/alpha15.png",
+        "imgName": "α15"
+    }
+]
