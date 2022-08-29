@@ -12,6 +12,8 @@
   --h3Size: calc(var(--h2Size) - 10px); /* Header 3 Font Size */
   --h4Size: calc(var(--pSize) + 10px); /* Header 4 Font Size */
   --h5Size: calc(var(--pSize) - 10px); /* Header 5 Font Size */
+  --mobileh1: calc(var(--h1Size) - 30px);
+  --mobilep: calc(var(--pSize) - 10px);
 
   /* COLORS */
     --basic: #DADADA; /* General Color */

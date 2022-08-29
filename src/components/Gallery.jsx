@@ -10,7 +10,7 @@ export default function Gallery() {
                 <ImageCard 
                     img={token.imgSrc}
                     name={token.imgName}
-                    // url="/token"
+                    url="/token"
                 />
             ))}
         </div>

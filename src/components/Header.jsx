@@ -7,7 +7,7 @@ export default function Header() {
         <header className='header_container'>
             <NavBar />
             <div className='header__logo'>
-                <img src={CollectionLogo} alt="Natur Dreanscapes Collection Logo" />
+                <img src={CollectionLogo} alt="Natur Dreanscapes Collection Logo" className='logo'/>
             </div>
             <div className="container">
                 <div className="artist__name">

@@ -7,7 +7,7 @@ export default function SimpleHeader() {
         <header className='simpleheader_container'>
             <NavBar />
             <div className='header__logo'>
-                <img src={CollectionLogo} alt="Natur Dreanscapes Collection Logo" />
+                <a href="./"><img src={CollectionLogo} alt="Natur Dreanscapes Collection Logo" className='logo'/></a>
             </div>
         </header>
     );
